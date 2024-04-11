@@ -6,10 +6,64 @@
 
 <template>
     <header>
-        <h1>Ciao mondo</h1>
+        <div class="container">
+            <div class="row">
+                <div class="logo-container">
+                    <a href="#">
+                        <img src="../assets/img/dc-logo.png" alt="logo-dc-comincs">
+                    </a>     
+                </div>
+                <nav>
+                    <ul>
+                        <li>Characters</li>
+                        <li>Comincs</li>
+                        <li>Movies</li>
+                        <li>Tv</li>
+                        <li>Games</li>
+                        <li>Collectibles</li>
+                        <li>Videos</li>
+                        <li>Fans</li>
+                        <li>News</li>
+                        <li>Shop</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 
+    @use '../style/partials/variables' as *;
+
+    header {
+        padding: 20px 0;
+    }
+
+    img {
+        width: 80px;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+
+        ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        li {
+            text-transform: uppercase;
+            cursor: pointer;
+            border-bottom: 2px solid #fff;
+            padding: 30px 0;
+
+            &:hover {
+                border-bottom: 2px solid $primary-color;
+            }
+        }
+    }
+    }
+    
 </style>
