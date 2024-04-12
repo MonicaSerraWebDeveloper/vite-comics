@@ -37,7 +37,7 @@
     @use '../style/partials/variables' as *;
 
     header {
-        padding: 20px 0;
+       
     }
 
     img {
@@ -56,11 +56,11 @@
         li {
             text-transform: uppercase;
             cursor: pointer;
-            border-bottom: 2px solid #fff;
+            border-bottom: 4px solid #fff;
             padding: 30px 0;
 
             &:hover {
-                border-bottom: 2px solid $primary-color;
+                border-bottom: 4px solid $primary-color;
             }
         }
     }
