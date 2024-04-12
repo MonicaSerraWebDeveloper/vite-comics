@@ -45,6 +45,11 @@ export default {
             padding: 10px;
             background-color: transparent;
             border: 2px solid $primary-color;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $primary-color;
+            }
         }
 
         .container-social {
@@ -56,6 +61,10 @@ export default {
                 color: $primary-color;
                 text-transform: uppercase;
                 font-weight: 700;
+            }
+
+            img {
+                cursor: pointer;
             }
         }
     }
