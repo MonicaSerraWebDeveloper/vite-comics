@@ -7,7 +7,7 @@
 <template>
     <header>
         <div class="container">
-            <div class="row">
+            <div class="row-space-between">
                 <div class="logo-container">
                     <a href="#">
                         <img src="../assets/img/dc-logo.png" alt="logo-dc-comincs">

@@ -28,8 +28,13 @@ li {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    
+
     .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .row-space-between {
         display: flex;
         justify-content: space-between;
     }
