@@ -1,7 +1,12 @@
 <script>
 
+    import AppCardListing from './AppCardListing.vue'
+
     export default {
         name: 'AppCard',
+        components: {
+            AppCardListing
+        },
 
         data() {
         return {
@@ -90,7 +95,7 @@
     <div class="container-bg">
         <div class="container">
             <div class="row">
-                <h2>Weeee</h2>
+                <AppCardListing></AppCardListing>
             </div>
         </div>
     </div>
@@ -101,12 +106,10 @@
     @use '../style/partials/variables' as *;
 
     .container-bg {
-        height: 200px;
         display: flex;
         align-items: center;
         color: $text-color-primary;
         background-color: $secondary-color;
-
-
+        padding: 50px 0;
     }
 </style>
