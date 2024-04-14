@@ -70,6 +70,7 @@
 
             &:hover {
                 border-bottom: 4px solid $primary-color;
+                color: $primary-color;
             }
         }
     }

@@ -4,6 +4,7 @@
   import AppBannerIcon from './components/AppBannerIcon.vue'
   import AppFooterTop from './components/AppFooterTop.vue'
   import AppFooterBottom from './components/AppFooterBottom.vue'
+  import AppBannerComic from './components/AppBannerComic.vue'
 
   export default {
     components: {
@@ -11,7 +12,8 @@
       AppCard,
       AppBannerIcon,
       AppFooterTop,
-      AppFooterBottom
+      AppFooterBottom,
+      AppBannerComic
     }
   }
 </script>
@@ -19,6 +21,7 @@
 <template>
     <AppHeader></AppHeader>
     <main>
+      <AppBannerComic></AppBannerComic>
       <AppCard></AppCard>
       <AppBannerIcon></AppBannerIcon>
     </main>

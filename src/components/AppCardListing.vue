@@ -6,8 +6,6 @@ export default {
         image: String,
         title: String
     }
-        
-    
 }
 
 </script>
