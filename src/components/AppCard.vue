@@ -96,6 +96,7 @@
         <div class="container">
             <div class="row">
                 <AppCardListing v-for="comic in comics" :image="comic.thumb" :title="comic.series"></AppCardListing>
+                <button class="secondary-button">Load More</button>
             </div>
         </div>
     </div>
@@ -111,5 +112,9 @@
         color: $text-color-primary;
         background-color: $secondary-color;
         padding: 50px 0;
+
+        .row {
+            justify-content: center;
+        }
     }
 </style>
